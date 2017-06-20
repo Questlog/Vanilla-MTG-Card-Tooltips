@@ -12,7 +12,7 @@ $PluginInfo['MTG'] = array(
 
 use Nbbc\BBCode as BBCode;
 
-class SpoilersPlugin extends Gdn_Plugin {
+class MTG extends Gdn_Plugin {
 
     public function bbcode_afterBBCodeSetup_handler($Sender) {
         $nbbc = $Sender->EventArguments['BBCode'];
